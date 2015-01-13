@@ -21,7 +21,7 @@ module MegaLotto
 
       it "each element is less than 60" do 
         draw.each do |drawing| 
-          expect(drawing).to be <60
+          expect(drawing).to be < 60
         end
       end
     end
